@@ -1,0 +1,39 @@
+A. 
+User: a entity that will be using said system for its purpose, in this case the user will
+be able to read and write emails to be sent to other users of the system.
+
+Server: a entity that will manage all of the actions held in the system, in this case it will
+obtain emails from users and send them to their designated address and manage any replies
+a user may send. it will have the form of a hardware device such as a computer.
+
+Virus Checker: will scan any emails sent by the users for any malicious software and prevent
+any sort of transporting of said software. it is a type of software used to provide protection 
+for any users of the system.
+
+B. 
+Manage Account: user can edit personal details on the email account, such as name, DoB, email handle
+etc. Server will be able to keep the user's email handle as an address for email to be sent to.
+
+Get an Email: user can recieve an email from another user, will have to go through the server first.
+
+Sending an Email: user can send an email which will be sent to the server before the recipient.
+
+View Email: user can view contents of email, virus checker will have to view contents to check for 
+malicious software as a precaution. Server will be able to view contents of email to determine
+who the email will be delivered to.
+
+Manage Email: user can decide to manage the email by doing things such as deleting, archiving, 
+favouriting etc. Virus checker can delete emails only if there is flagged malicious software inside
+of it.
+
+D. 
+- User sends an email to a friend
+- email goes to the server 
+- email undergoes virus check
+- email passes virus check
+- server sends email to the friend
+- friend replies back with another email containing malware
+- email gets sent to the server 
+- email undergoes virus check
+- email fails virus check
+- server does not send email
